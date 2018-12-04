@@ -21,3 +21,7 @@ https://pytorch.org/get-started/previous-versions/
 ## Segmentation fault(core dumped)
 	import mydata
 	Reason = 
+	
+## Conda 설정
+	conda create --name py36 python=3.6
+	
