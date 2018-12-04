@@ -4,4 +4,4 @@
 	conda install torchvision
 	conda install imageio
 	conda install matplolib
-	
+	conda install -c auto easydict	
