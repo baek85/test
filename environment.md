@@ -17,3 +17,7 @@ https://graspthegist.com/post/learn-conda-1/
 
 ## Pytorch 설치
 https://pytorch.org/get-started/previous-versions/
+
+## Segmentation fault(core dumped)
+	import mydata
+	Reason = 
