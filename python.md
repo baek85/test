@@ -1,3 +1,7 @@
+# 0. python
+  CUDA device 바꾸기
+  os.environ["CUDA_VISIBLE_DEVICES"]="1"
+
 # 1. pytorch
 ### AssertionError: nn criterions don’t compute the gradient w.r.t. targets - please mark these variables as volatile or not requiring gradients
 
