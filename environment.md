@@ -28,3 +28,11 @@ https://pytorch.org/get-started/previous-versions/
 ## python 2.7이 아니라 3.6에 torchvision 설치할 때
 	conda install torchvision -c pytorch
 ## recursive하게 파일 권한 변경
+	chown -R baek:baek dataset/
+## segfault 
+	import matplotlib.pyplot as plt
+	
+	
+	import matplotlib as mpl
+	mpl.use('ps')
+	import matplotlib.pyplot as plt
