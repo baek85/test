@@ -27,3 +27,4 @@ https://pytorch.org/get-started/previous-versions/
 	conda install pytorch=0.4.0 cuda80 -c pytorch
 ## python 2.7이 아니라 3.6에 torchvision 설치할 때
 	conda install torchvision -c pytorch
+## recursive하게 파일 권한 변경
