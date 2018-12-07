@@ -1,13 +1,13 @@
 # 0. python
-  CUDA device 바꾸기
-  os.environ["CUDA_VISIBLE_DEVICES"]="1"
+### CUDA device 바꾸기
+	os.environ["CUDA_VISIBLE_DEVICES"]="1"
   
 ### argparse 내용 저장
-  var_args = vars(args)
-  
-  for key, var in var_args.items():
-      print(key, var)
-  
+	var_args = vars(args)
+
+	for key, var in var_args.items():
+		print(key, var)
+
 # 1. pytorch
 ### AssertionError: nn criterions don’t compute the gradient w.r.t. targets - please mark these variables as volatile or not requiring gradients
 
