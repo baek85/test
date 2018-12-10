@@ -7,7 +7,10 @@
 
 	for key, var in var_args.items():
 		print(key, var)
-
+### matplotlib segmenatation fault (core dumped)
+	import matplotlib as mpl
+	mpl.use('ps')
+	import matplotlib.pyplot as plt
 # 1. pytorch
 ### AssertionError: nn criterions don’t compute the gradient w.r.t. targets - please mark these variables as volatile or not requiring gradients
 
