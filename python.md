@@ -11,6 +11,7 @@
 	import matplotlib as mpl
 	mpl.use('ps')
 	import matplotlib.pyplot as plt
+	https://github.com/matplotlib/matplotlib/issues/6531/
 # 1. pytorch
 ### AssertionError: nn criterions don’t compute the gradient w.r.t. targets - please mark these variables as volatile or not requiring gradients
 
