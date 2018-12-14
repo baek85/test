@@ -36,3 +36,5 @@ https://pytorch.org/get-started/previous-versions/
 	import matplotlib as mpl
 	mpl.use('ps')
 	import matplotlib.pyplot as plt
+## Tensorflow 설치
+	https://yunsangq.github.io/articles/2017-02/tensorflow
